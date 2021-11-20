@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { UserContext } from "../lib/context";
 
 // component's children only shown to logged-in users
-export default function AuthCheck() {
+export default function AuthCheck(props) {
     const { username } = useContext(UserContext);
 
     return username ?

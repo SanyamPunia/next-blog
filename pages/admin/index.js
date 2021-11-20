@@ -85,7 +85,7 @@ function CreateNewPost() {
             <p>
                 <strong>Slug:</strong> {slug}
             </p>
-            <button type="submit" disabled={!isValid} class="btn-green">
+            <button type="submit" disabled={!isValid} className="btn-green">
                 Create New Post
             </button>
         </form>
